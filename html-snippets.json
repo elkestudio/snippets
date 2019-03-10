@@ -48,7 +48,7 @@
       "</div>",
       "",
       "<!-- MENU BUTTON -->",
-      "<div class='menu-button' fxLayout='column' fxLayoutAlign='center end' fxLayoutGap='7px' fxShow fxHide.gt-sm>",
+      "<div class='menu-button' fxLayout='column' fxLayoutAlign='center end' fxLayoutGap='7px' fxShow fxHide.gt-sm (click)='openMenu()'>",
       "<div #line1 class='line1'></div>",
       "<div #line2 class='line2'></div>",
       "<div #line3 class='line3'></div>",
