@@ -1,5 +1,4 @@
 {
-
   "SCSS breakpoints": {
     "prefix": "breakpoints",
     "body": [
@@ -99,30 +98,97 @@
       "@content;",
       "}",
       "}"
-
     ],
     "description": "SCSS breakpoints"
   },
-
-  "CSS center": {
-    "prefix": "centerme",
+  "center": {
+    "prefix": "center",
     "body": [
       "position:absolute;",
       "top:50%;",
       "left:50%;",
       "transform: translate(-50%, -50%);"
-    ],
-    "description": "CSS Center "
+    ]
   },
-
-  "CSS full width": {
+  "position absolute": {
+    "prefix": "absolute",
+    "body": [
+      "position: absolute;",
+      "top:0;",
+      "right:0"
+    ]
+  },
+  "position relative": {
+    "prefix": "relative",
+    "body": [
+      "position: relative;",
+      "top:0;",
+      "right:0"
+    ]
+  },
+  "full width & height": {
     "prefix": "full",
     "body": [
       "width: 100%;",
       "height: 100vh;"
     ]
   },
-
+  "width": {
+    "prefix": "width",
+    "body": [
+      "height: $1;"
+    ]
+  },
+  "height": {
+    "prefix": "height",
+    "body": [
+      "height: $1;"
+    ]
+  },
+  "margin": {
+    "prefix": "margin",
+    "body": [
+      "margin: $1px $2px $3px $4px; //top right bottom left"
+    ]
+  },
+  "padding": {
+    "prefix": "padding",
+    "body": [
+      "padding: $1px $2px $3px $4px //top right bottom left;"
+    ]
+  },
+  "image wrapper": {
+    "prefix": "imgwrap",
+    "body": [
+      ".img-wrapper {",
+      "display: flex;",
+      "width: $1;",
+      "height: $1;",
+      " }",
+      "",
+      ".img {",
+      "width: 100%;",
+      "object-fit: cover;",
+      "}"
+    ]
+  },
+  "colors": {
+    "prefix": "colors",
+    "body": [
+      "$primary: $1;",
+      "$primary-dark: darken($primary, 20 % );",
+      "$primary-light: lighten($primary, 30 % );",
+      "$secondary: $2;",
+      "$secondary-dark: darken($secondary, 20 % );",
+      "$secondary-light: lighten($secondary, 30 % );",
+      "$accent: $3;",
+      "$accent-dark: darken($accent, 20 % );",
+      "$accent-light: lighten($accent, 30 % );",
+      "$warn: $4;",
+      "$warn-dark: darken($warn, 20 % );",
+      "$warn-light: lighten($warn, 30 % );"
+    ]
+  },
   "section hero navigation": {
     "prefix": "heronav",
     "body": [
@@ -150,20 +216,20 @@
       "cursor: pointer;",
       "",
       ".line1 {",
-      "width: 80 % ;",
-      "height: 2 px;",
+      "width: 80%;",
+      "height: 2px;",
       "background: $primary;",
       "}",
       "",
       ".line2 {",
-      "width: 65 % ;",
-      "height: 2 px;",
+      "width: 65%;",
+      "height: 2px;",
       "background: $primary;",
       "}",
       "",
       ".line3 {",
-      "width: 100 % ;",
-      "height: 2 px;",
+      "width: 100%;",
+      "height: 2px;",
       "background: $primary;",
       "}",
       "}",
@@ -277,6 +343,4 @@
       "}"
     ]
   }
-
-
 }
