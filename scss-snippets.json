@@ -1,17 +1,18 @@
 {
+
   "SCSS breakpoints": {
     "prefix": "breakpoints",
     "body": [
       "// Screen size variables //",
       "",
-      "$screen-ixs-min: 200px; // Idiotically tiny phones",
-      "$screen-xxs-min: 320px; // Really tiny phones",
-      "$screen-xs-min: 425px; // Tiny phones",
-      "$screen-sm-min: 576px; // Small tablets and large smartphones (landscape view)",
-      "$screen-md-min: 768px; // Small tablets (portrait view)",
-      "$screen-lg-min: 992px; // Tablets and small desktops",
-      "$screen-xl-min: 1200px; // Large tablets and desktops",
-      "$screen-xxl-min: 2000px; // Extra large tablets and desktops",
+      "\\$screen-ixs-min: 200px; // Idiotically tiny phones",
+      "\\$screen-xxs-min: 320px; // Really tiny phones",
+      "\\$screen-xs-min: 425px; // Tiny phones",
+      "\\$screen-sm-min: 576px; // Small tablets and large smartphones (landscape view)",
+      "\\$screen-md-min: 768px; // Small tablets (portrait view)",
+      "\\$screen-lg-min: 992px; // Tablets and small desktops",
+      "\\$screen-xl-min: 1200px; // Large tablets and desktops",
+      "\\$screen-xxl-min: 2000px; // Extra large tablets and desktops",
       "",
       "// $screen-iPad-1 : 768px;",
       "// $screen-iPad-2 : 1024px;",
@@ -47,60 +48,62 @@
       "",
       "// Idiotically tiny devices 200px",
       "@mixin ixs {",
-      "@media (min-width: #{$screen-ixs-min}) {",
+      "@media (min-width: #{\\$screen-ixs-min}) {",
       "@content;",
       "}",
       "}",
       "// Really tiny devices 320px",
       "@mixin xxs {",
-      "@media (min-width: #{$screen-xxs-min}) {",
+      "@media (min-width: #{\\$screen-xxs-min}) {",
       "@content;",
       "}",
       "}",
       "// Tiny devices 425px",
       "@mixin xs {",
-      "@media (min-width: #{$screen-xs-min}) {",
+      "@media (min-width: #{\\$screen-xs-min}) {",
       "@content;",
       "}",
       "}",
       "",
       "// Small devices 576px",
       "@mixin sm {",
-      "@media (min-width: #{$screen-sm-min}) {",
+      "@media (min-width: #{\\$screen-sm-min}) {",
       "@content;",
       "}",
       "}",
       "",
       "// Medium devices 768px",
       "@mixin md {",
-      "@media (min-width: #{$screen-md-min}) {",
+      "@media (min-width: #{\\$screen-md-min}) {",
       "@content;",
       "}",
       "}",
       "",
       "// Large devices 992px",
       "@mixin lg {",
-      "@media (min-width: #{$screen-lg-min}) {",
+      "@media (min-width: #{\\$screen-lg-min}) {",
       "@content;",
       "}",
       "}",
       "",
       "// Extra large devices 1200px",
       "@mixin xl {",
-      "@media (min-width: #{$screen-xl-min}) {",
+      "@media (min-width: #{\\$screen-xl-min}) {",
       "@content;",
       "}",
       "}",
       "",
       "// Extra Extra large devices 2000px",
       "@mixin xxl {",
-      " @media (min-width: #{$screen-xxl-min}) {",
+      " @media (min-width: #{\\$screen-xxl-min}) {",
       "@content;",
       "}",
       "}"
+
     ],
     "description": "SCSS breakpoints"
   },
+
   "center": {
     "prefix": "center",
     "body": [
@@ -172,23 +175,25 @@
       "}"
     ]
   },
-  "colors": {
-    "prefix": "colors",
-    "body": [
-      "$primary: $1;",
-      "$primary-dark: darken($primary, 20 % );",
-      "$primary-light: lighten($primary, 30 % );",
-      "$secondary: $2;",
-      "$secondary-dark: darken($secondary, 20 % );",
-      "$secondary-light: lighten($secondary, 30 % );",
-      "$accent: $3;",
-      "$accent-dark: darken($accent, 20 % );",
-      "$accent-light: lighten($accent, 30 % );",
-      "$warn: $4;",
-      "$warn-dark: darken($warn, 20 % );",
-      "$warn-light: lighten($warn, 30 % );"
-    ]
-  },
+	"colors": {
+	  "prefix": "colors",
+	  "body": [
+	    "\\$primary: $1;",
+	    "\\$primary-dark: darken(\\$primary, 20%);",
+	    "\\$primary-light: lighten(\\$primary, 30%);",
+	    "\\$secondary: $2;",
+	    "\\$secondary-dark: darken(\\$secondary, 20%);",
+	    "\\$secondary-light: lighten(\\$secondary, 30%);",
+	    "\\$accent: $3;",
+	    "\\$accent-dark: darken(\\$accent, 20%);",
+	    "\\$accent-light: lighten(\\$accent, 30%);",
+	    "\\$warn: $4;",
+	    "\\$warn-dark: darken(\\$warn, 20%);",
+	    "\\$warn-light: lighten(\\$warn, 30%);",
+	  ]
+	},
+
+
   "section hero navigation": {
     "prefix": "heronav",
     "body": [
@@ -343,4 +348,6 @@
       "}"
     ]
   }
+
+
 }
