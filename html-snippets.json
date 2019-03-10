@@ -17,17 +17,22 @@
   "flex container row": {
     "prefix": "conrow",
     "body": [
-      "<div class='$1' fxLayout='column' fxLayout.gt-sm='row' fxLayoutAlign='$2 $3' fxLayoutGap='$4px' fxFlex='$5%'></div>"
+      "<div class='$1' fxLayout='column' fxLayout.gt-sm='row' fxLayoutAlign='$2 $3' fxLayoutGap='$4px' fxFlex='$5%'></div>",
+      "",
+      "</div>"
     ],
     "description": "Flex container row"
   },
   "flex container column": {
     "prefix": "concol",
     "body": [
-      "<div class='$1' fxLayout='row' fxLayout.gt-sm='column' fxLayoutAlign='$2 $3' fxLayoutGap='$4px' fxFlex='$5%'></div>"
+      "<div class='$1' fxLayout='row' fxLayout.gt-sm='column' fxLayoutAlign='$2 $3' fxLayoutGap='$4px' fxFlex='$5%'>",
+      "",
+      "</div>"
     ],
     "description": "Flex container column"
   },
+
 
   "image wrapper": {
     "prefix": "imgwrap",
