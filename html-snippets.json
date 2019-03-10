@@ -1,0 +1,17 @@
+{
+
+  "flex row": {
+    "prefix": "row",
+    "body": [
+      "fxLayout='row' fxLayoutAlign='$1 $2' fxLayoutGap='$3px'",
+    ],
+    "description": "Flex row"
+  },
+  "flex column": {
+    "prefix": "col",
+    "body": [
+      "fxLayout='column' fxLayoutAlign='$1 $2' fxLayoutGap='$3px'",
+    ],
+    "description": "Flex column"
+  }
+}
