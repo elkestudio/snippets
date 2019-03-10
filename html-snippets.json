@@ -1,17 +1,93 @@
 {
-
   "flex row": {
     "prefix": "row",
     "body": [
-      "fxLayout='row' fxLayoutAlign='$1 $2' fxLayoutGap='$3px'",
+      "fxLayout='row' fxLayoutAlign='$1 $2' fxLayoutGap='$3px'"
     ],
     "description": "Flex row"
   },
   "flex column": {
     "prefix": "col",
     "body": [
-      "fxLayout='column' fxLayoutAlign='$1 $2' fxLayoutGap='$3px'",
+      "fxLayout='column' fxLayoutAlign='$1 $2' fxLayoutGap='$3px'"
     ],
     "description": "Flex column"
+  },
+  "section hero navigation": {
+    "prefix": "heronav",
+    "body": [
+      "<div class='container'>",
+      "",
+      "<!-- DIM -->",
+      "<div class='dim'></div>",
+      "",
+      "<!-- MENU LIST -->",
+      "",
+      "<div #menuList class='menu-list' fxLayout='row' fxLayoutAlign='end center' fxLayoutGap='70px' fxHide fxShow.gt-sm>",
+
+      "<div class='menu-list-item' fxLayout='column' fxLayoutAlign='start center'>",
+      "<h1>home</h1>",
+      "<div class='line'></div>",
+      "</div>",
+      "",
+      "<div class='menu-list-item' fxLayout='column' fxLayoutAlign='start center'>",
+      "<h1>about</h1>",
+      "<div class='line'></div>",
+      "</div>",
+      "",
+      "<div class='menu-list-item' fxLayout='column' fxLayoutAlign='start center'>",
+      "<h1>works</h1>",
+      "<div class='line'></div>",
+      "</div>",
+      "",
+      "<div class='menu-list-item' fxLayout='column' fxLayoutAlign='start center'>",
+      "<h1>contact</h1>",
+      "<div class='line'></div>",
+      "</div>",
+      "",
+      "</div>",
+      "",
+      "<!-- MENU BUTTON -->",
+      "<div class='menu-button' fxLayout='column' fxLayoutAlign='center end' fxLayoutGap='7px' fxShow fxHide.gt-sm>",
+      "<div #line1 class='line1'></div>",
+      "<div #line2 class='line2'></div>",
+      "<div #line3 class='line3'></div>",
+      "</div>",
+      "",
+      "<!-- MENU -->",
+      "<div #menuWrapper class='menu-wrapper' fxHide.gt-sm fxLayout='column' fxLayoutAlign='center center' fxLayoutGap='20px'>",
+      "",
+      "<div #menu class='menu'>",
+      "",
+      "<div class='menu-item' fxLayout='column' fxLayoutAlign='start center'>",
+      "<h1>home</h1>",
+      "<div class='line'></div>",
+      "</div>",
+      "",
+      "<div class='menu-item' fxLayout='column' fxLayoutAlign='start center'>",
+      "<h1>about</h1>",
+      "<div class='line'></div>",
+      "</div>",
+      "",
+      "<div class='menu-item' fxLayout='column' fxLayoutAlign='start center'>",
+      "<h1>works</h1>",
+      "<div class='line'></div>",
+      "</div>",
+      "",
+      "<div class='menu-item' fxLayout='column' fxLayoutAlign='start center'>",
+      "<h1>contact</h1>",
+      "<div class='line'></div>",
+      "</div>",
+      "",
+      "</div>",
+      "</div>",
+      "<div #navBack1 class='nav-back1'></div>",
+      "<div #navBack2 class='nav-back2'></div>",
+      "<div #navBack3 class='nav-back3'></div>",
+      "",
+      "</div>"
+
+    ],
+    "description": "Hero with navigation"
   }
 }
